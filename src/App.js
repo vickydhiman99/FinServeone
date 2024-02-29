@@ -1,10 +1,10 @@
 import './App.css';
-import Page from './Component/Pages/Page';
+import Routing from './Routing/Routing';
 
 function App() {
   return (
-    <div className="">
-      <Page/> 
+    <div>
+      <Routing/>
     </div>
   );
 }

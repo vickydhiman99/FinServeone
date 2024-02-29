@@ -1,22 +1,29 @@
 import React from 'react'
-import { Link } from "react-router-dom"
+import { navData } from '../../Data/ProductService';
 import './header.css'
 import logo from '../../../Assets/Image/l-6.png'
 import CallIcon from '@mui/icons-material/Call';
 import EmailIcon from '@mui/icons-material/Email';
+import { Link } from 'react-router-dom';
 
-const headerData = [
-    { path: '/', Title: 'HOME' },
-    { path: '/about', Title: 'ABOUT' },
-    { path: '/product', Title: 'PRODUCT' },
-    { path: '/service', Title: 'SERVICES' },
-    { path: '/contact', Title: 'CONTACT' },
-    { path: '/career', Title: 'CAREERS' }
-]
+
+
+
 
 const Header = () => {
+    
+    let headerr = document.querySelector('.headerr');
+
+
+    window.onscroll = () => {
+        if (window.scrollY > 0) {
+            headerr.classList.add('active')
+        } else {
+            headerr.classList.remove('active')
+        }
+    }
     return (
-        <div className='fixed-top'>
+        <div id='headerfile' className='headerr fixed-top'>
 
             <div className="row m-0 head">
                 <div className="col-lg-6 col-md-6 headerone">
@@ -38,17 +45,17 @@ const Header = () => {
 
             <nav className="navbar navbar-expand-md navbar-dark " id="nav">
                 <div className="container">
-                    <a className="navbar-brand " href="#"><img style={{ height: '7vh' }} src={logo} alt="" /></a>
-                   {/* <span className='logotitle'>FinservOne</span>*/}
+                    <Link className="navbar-brand " to='/'><img style={{ height: '7vh' }} src={logo} alt="" /></Link>
+                    {/* <span className='logotitle'>FinservOne</span>*/}
                     <button className="navbar-toggler" data-toggle="collapse" data-target="#mytoggle">
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse main" id="mytoggle">
                         <ul className="navbar-nav ml-auto ">
                             {
-                                headerData.map((res, index) => (
+                                navData.map((res, index) => (
                                     <li key={index} className="nav-item">
-                                        <a className="nav-link active" href={res.path}>{res.Title}</a>
+                                        <Link className="nav-link active" to={res.path}>{res.Name}</Link>
                                     </li>
                                 ))
                             }

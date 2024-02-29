@@ -1,6 +1,8 @@
 import React from 'react'
 import './footer.css'
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
+import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
+import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 
 
 const Footer = () => {
@@ -46,6 +48,19 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
+
+                <div className='row m-0 footer-bottom'>
+                  <div className="col-lg-8 col-sm-12">
+                     <p style={{color:'#777777'}}>Copyright ©2024 All rights reserved | This template is made <FavoriteBorderIcon style={{color:'#69be00'}}/> with  by <span>FinServeone</span> </p>
+                  </div>
+                  <div className="col-lg-4 col-sm-12 social-icon">
+                     <a href=""><FacebookOutlinedIcon/></a>
+                     <a href=""><FacebookOutlinedIcon/></a>
+                     <a href=""><FacebookOutlinedIcon/></a>
+                     <a href=""><FacebookOutlinedIcon/></a>
+                  </div>
+                </div>
+                
             </div>
         </section>
 

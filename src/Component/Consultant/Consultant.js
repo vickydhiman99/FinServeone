@@ -1,67 +1,41 @@
-import React, { useState, useEffect } from 'react';
-import { Carousel } from 'primereact/carousel';
-import { ProductService } from '../Data/ProductService';
+import React from 'react'
 import './consultant.css'
-
-export default function Consultant() {
-    const [products, setProducts] = useState([]);
-    const responsiveOptions = [
-        {
-            breakpoint: '1920px',
-            numVisible: 6,
-            numScroll: 1
-        },
-        {
-            breakpoint: '1199px',
-            numVisible: 4,
-            numScroll: 1
-        },
-        {
-            breakpoint: '767px',
-            numVisible: 4,
-            numScroll: 1
-        },
-        {
-            breakpoint: '575px',
-            numVisible: 4,
-            numScroll: 1
-        }
-    ];
-
-    useEffect(() => {
-        ProductService.getProductsSmall().then((data) => setProducts(data.slice(0, 15)));
-    }, []);
-
-    const productTemplate = (product) => {
-        return (
-            <div className="container">
-                <div className="border-1 surface-border border-round m-2 text-center py-5 px-3 card-box">
-                    <div className="mb-3">
-                        <img src={`https://primefaces.org/cdn/primereact/images/product/${product.image}`} alt={product.name} className="w-6 shadow-2" />
+import image from '../../Assets/Image/consultantimg.jpg'
+import img2 from '../../Assets/Image/t1.jpg'
+import img3 from '../../Assets/Image/t2.jpg'
+import img4 from '../../Assets/Image/t4.jpg'
+const Consultant = () => {
+    return (
+        <div className='container'>
+            <div className='title'>
+                <h3>Our Consultants</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div className="row">
+                <div className="col-lg-3 col-md-6 col-sm-12 consultant">
+                    <div className="card" style={{ width: '18rem' }}>
+                        <img className="card-img-top" src={image} alt="Card-image-cap" />
                     </div>
-                    <div className="content">
-                        <div className="icon">
-                           <p>fb</p>
-                           <p>insta</p>
-                           <p>twi</p>
-                           <p>link</p>
-                        </div>
-                        <h4>headeing</h4>
-                        <p className='p'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium, vero!</p>
+                </div>
+                <div className="col-lg-3 col-md-6 col-sm-12 consultant">
+                    <div className="card" style={{ width: '18rem' }}>
+                        <img className="card-img-top" src={img2} alt="Card-image-cap" />
                     </div>
-                    {/*<div>
-                        <h4 className="mb-1">{product.name}</h4>
-                        <h6 className="mt-0 mb-3">${product.price}</h6>
-                        <Tag value={product.inventoryStatus} severity={getSeverity(product)}></Tag>
-                     </div>*/}
+                </div>
+                <div className="col-lg-3 col-md-6 col-sm-12 consultant">
+                    <div className="card" style={{ width: '18rem' }}>
+                        <img className="card-img-top" src={img3} alt="Card image cap" />
+                    </div>
+                </div>
+                <div className="col-lg-3 col-md-6 col-sm-12 consultant">
+                    <div className="card" style={{ width: '18rem' }}>
+                        <img className="card-img-top" src={img4} alt="Card image cap" />
+                    </div>
                 </div>
             </div>
-        );
-    };
 
-    return (
-        <div className="card">
-            <Carousel value={products} numScroll={1} numVisible={3} responsiveOptions={responsiveOptions} itemTemplate={productTemplate} />
         </div>
     )
 }
+
+export default Consultant

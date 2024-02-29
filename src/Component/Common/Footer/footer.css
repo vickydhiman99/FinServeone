@@ -27,11 +27,14 @@
     border-radius: 20px;
     color: #777;
     padding-left: 20px;
-    width: 100%
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .btn{
     background: #69be00;
-    line-height: 42px;
+    line-height: 29px;
     padding-left: 30px;
     border: none;
     color: #fff;
@@ -40,9 +43,35 @@
     transition: all 0.3s ease 0s;
     cursor: pointer;
     position: relative;
-    padding-right: 55px;
+    padding-right: 28px !important;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 8px;
+    border-radius: 25px;
+}
+
+.social-icon a{
+    background: #111111;
+    transition: all 0.3s ease 0s;
+    width: 32px;
+    display: inline-block;
+    text-align: center;
+    padding: 5px 0px;
+    color: #fff;
+}
+.social-icon{
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.footer-bottom{
+    padding: 80px 0px;
+}
+
+.footer-bottom span{
+    color: #69be00;
+    font-family: cursive;
 }
