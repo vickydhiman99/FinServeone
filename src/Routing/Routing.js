@@ -9,6 +9,8 @@ import Contact from '../Page/Contact/Contact'
 import Career from '../Page/Career/Career'
 import Header from '../Component/Common/Header/Header'
 import Footer from '../Component/Common/Footer/Footer'
+import Consultant from '../Page/Consultant/Consultant'
+import Profile from '../Page/Consultant/Profile/Profile'
 
 const Routing = () => {
     return (
@@ -17,11 +19,13 @@ const Routing = () => {
             <Routes>
                 <Route path='/' element={<Main />} />
                 <Route index element={<Home />} />
-                <Route path='service' element={<Service />} />
-                <Route path='product' element={<Product />} />
-                <Route path='about' element={<About />} />
-                <Route path='contact' element={<Contact />} />
-                <Route path='career' element={<Career />} />
+                <Route path='/service' element={<Service />} />
+                <Route path='/product' element={<Product />} />
+                <Route path='/about' element={<About />} />
+                <Route path='/contact' element={<Contact />} />
+                <Route path='/career' element={<Career />} />
+                <Route path='/consultant' element={<Consultant />} />
+                <Route path='/profile' element={<Profile />} />
             </Routes>
             <Footer />
         </BrowserRouter>

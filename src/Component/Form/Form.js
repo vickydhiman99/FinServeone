@@ -12,7 +12,7 @@ const Form = () => {
                         <table class="table table-striped">
                             <thead>
                                 <tr>
-                                    <th scope="col">Monday-Friday</th>
+                                    <td scope="col">Monday-Friday</td>
                                     <td >Saturday</td>
                                 </tr>
                             </thead>
@@ -40,7 +40,7 @@ const Form = () => {
                             <input type="number" className='form-control' placeholder='Phone' />
                         </div>
                         <div className="mb-3">
-                            <input type="date" className='form-control' placeholder='appointment date' />
+                            <input type="date" className='form-control' placeholder='Date Of Birth' />
                         </div>
                         <div className="mb-3">
                             <select class="form-control" aria-label="Default select example">
@@ -49,6 +49,12 @@ const Form = () => {
                                 <option value="2">Two</option>
                                 <option value="3">Three</option>
                             </select>
+                        </div>
+                        <div className="mb-3">
+                            <input type="date" className='form-control' placeholder='appointment date' />
+                        </div>
+                        <div className="mb-3">
+                            <textarea name="" id="" cols="30" rows="10" style={{width:'100%', height:'10vh', padding:'10px', border:'none', backgroundColor:'aliceblue'}} placeholder='Message...'/>
                         </div>
                         <div className="mb-3">
                             <button className='form-control ' style={{ backgroundColor: '#69be00', color: '#fff' }} type='button'>CONFIRM BOOKING</button>

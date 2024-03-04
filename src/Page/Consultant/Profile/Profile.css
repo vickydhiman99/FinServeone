@@ -1,0 +1,122 @@
+.first-section{
+    background-color: #DDEAFF;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 25px;
+}
+
+.first-section img{
+    border-radius: 25%;
+}
+.first-section .rupay{
+    background-color: green;
+    color: #fff;
+    padding: 5px 19px;
+    border-radius: 19px;
+    font-family: sans-serif;
+}
+
+.profile-review{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.profile-review .profile-btn{
+    background-color: #72C01C;
+    padding: 1vh 8vw;
+    color: #fff;
+    font-size: 25px;
+    font-family: sans-serif;
+    border-radius: 29px;
+    border: none;
+}
+.profile-review .review-btn{
+    background-color: #043A8C;
+    padding: 1vh 8vw;
+    color: #fff;
+    font-size: 25px;
+    font-family: sans-serif;
+    border-radius: 29px;
+    border: none;
+}
+.second-section{
+    background-color: #DDEAFF;
+    border-radius: 25px;
+}
+
+
+#profile .third{
+    background-color: #305AAF;
+    color: #fff;
+    border-radius: 25px;
+    padding: 30px 35px;
+}
+
+#profile .third h5{
+    text-align: center;
+}
+#profile .third .consultation-btn{
+    text-align: center;
+    margin-top: 8vh;
+    margin-bottom: 22.5vh;
+}
+#profile .third .consultation-btn button{
+    background-color: #043A8C;
+    color: #72a23c;
+    padding: 1vh 4vw;
+    font-size: 2vh;
+    font-family: sans-serif;
+    border-radius: 30px;
+    border: none;
+}
+#profile .pro-title{
+    text-align: center;
+    font-family: ui-sans-serif;
+    font-size: 7vh;
+    font-weight: 500;
+}
+#profile .third .title-label{
+    font-size: 21px;
+    white-space: nowrap;
+}
+
+#profile .third .date{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1vh;
+}
+#profile .third .date select{
+    padding: 9px 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #b7d1e5de;
+    color: #fff;
+}
+#profile .third .time{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vh;
+    
+}
+#profile .third .time select{
+    padding: 9px 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #b7d1e5de;
+    color: #fff;
+}
+#profile .third label{
+    font-size: 25px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+#profile .third option{
+    font-size: 20px;
+    
+}

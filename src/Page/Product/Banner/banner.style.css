@@ -1,0 +1,29 @@
+#banner{
+    background-image: url('../../../Assets//Image//product-banner.jpg');
+    height: 75vh;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    /* margin-top: 5.7vh; */
+}
+
+/* .content{
+    color: #fff;
+    position: absolute;
+    bottom: 10vh;
+    left: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.content .icon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.content h2{
+    font-size: 48px;
+    font-weight: 600;
+} */

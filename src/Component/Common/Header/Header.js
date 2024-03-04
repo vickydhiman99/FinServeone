@@ -6,22 +6,15 @@ import CallIcon from '@mui/icons-material/Call';
 import EmailIcon from '@mui/icons-material/Email';
 import { Link } from 'react-router-dom';
 
-
-
-
-
 const Header = () => {
-    
-    let headerr = document.querySelector('.headerr');
-
-
-    window.onscroll = () => {
-        if (window.scrollY > 0) {
-            headerr.classList.add('active')
-        } else {
-            headerr.classList.remove('active')
-        }
-    }
+    // let headerr = document.querySelector('.headerr');
+    // window.onscroll = () => {
+    //     if (window.scrollY > 0) {
+    //         headerr.classList.add('active')
+    //     } else {
+    //         headerr.classList.remove('active')
+    //     }
+    // }
     return (
         <div id='headerfile' className='headerr fixed-top'>
 

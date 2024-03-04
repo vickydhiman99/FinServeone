@@ -1,13 +1,12 @@
 .headerr{
-    background-color: rgba(255, 255, 255, 0.2);
+    /* background-color: rgba(255, 255, 255, 0.2); */
+    background-color: #3b536b;
 }
 .headerr.active{
     background-color: rgba(34, 34, 34, 0.9);
-    /* scroll-behavior: smooth; */
     color: #fff;
 }
 #nav{
-    /* background-color: #3b536b; */
     color: #fff;
 }
 #nav ul li a:hover{

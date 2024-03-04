@@ -52,13 +52,15 @@
 }
 
 .social-icon a{
-    background: #111111;
+    /* background: #111111; */
     transition: all 0.3s ease 0s;
     width: 32px;
     display: inline-block;
     text-align: center;
     padding: 5px 0px;
     color: #fff;
+    margin-top: 3vh;
+    margin-left: 14px;
 }
 .social-icon{
     display: flex;

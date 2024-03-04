@@ -1,9 +1,8 @@
 import React from 'react'
-import Banner from './Banner/Banner'
 const Service = () => {
   return (
     <div>
-      <Banner/>
+     <h1>service</h1>
     </div>
   )
 }

@@ -23,4 +23,9 @@ export const navData = [
         Name:'Career',
         path:'/career'
     },
+    {
+        Name:'Consultant',
+        path:'/consultant'
+    }
+
 ]

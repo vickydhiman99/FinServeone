@@ -1,0 +1,48 @@
+.card img {
+    height: 40vh;
+}
+.card:hover{
+    color: #fff;
+    background-color: #72C01C;
+}
+
+.showall {
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.showall a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #72C01C;
+    font-size: 25px;
+    font-family: emoji;
+    font-weight: 600;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    padding-top: 60px;
+}
+
+.title h1 {
+    margin-bottom: 20px;
+    color: #222222;
+    line-height: 1.2em;
+    margin-top: 0;
+    font-weight: 600;
+    font-size: 40px;
+    font-family: serif, sans-serif;
+}
+
+.title p {
+    width: 45vw;
+    text-align: center;
+    font-family: serif, sans-serif;
+    font-size: 20px;
+    color: #305AAF;
+}
