@@ -1,0 +1,14 @@
+#leadership h2{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    color: #222222;
+    line-height: 1.2em !important;
+    margin-top: 0;
+    font-weight: 600;
+}
+#leadership p{
+    text-align: center;
+}
+#leadership{
+    margin-top: 7vh;
+}

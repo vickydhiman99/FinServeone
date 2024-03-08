@@ -1,0 +1,36 @@
+
+#at-your-service{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10vh;
+    
+}
+#at-your-service .image{
+    height: 100%;
+    width: 80%;
+}
+.content-ul{
+    padding: 1rem 1rem 1rem 4rem;
+}
+.content-ul ul{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 2vh;
+    margin: 1rem 1rem 1rem 5rem;
+}
+.content-ul ul li{
+    list-style-type: disc;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+.content-ul h1{
+    font-size: 2.5rem;
+    font-family: serif;
+    font-weight: 600;
+    color: #222222;
+}

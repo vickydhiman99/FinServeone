@@ -1,0 +1,48 @@
+#consultant{
+    margin-top: 16vh;
+}
+#consultant h1{
+    text-align: center;
+    font-family: serif;
+}
+#consultant .consult-main-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+}
+#consultant .consult-main-card h4{
+    text-align: center;
+    font-family: sans;
+    color: #222222;
+    font-weight: 600;
+    line-height: normal;
+}
+#consultant .consult-main-card h6{
+    text-align: center;
+    color: #222222;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: normal;
+}
+#consultant .consult-main-card p{
+    text-align: center;
+    font-family: sans-serif;
+    color: #043A8C;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.star{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: #72C01C;
+    color: #fff;
+    gap: 5px;
+    padding: 0.5vh 1vw;
+    border-radius: 31px;
+    justify-content: center;
+}

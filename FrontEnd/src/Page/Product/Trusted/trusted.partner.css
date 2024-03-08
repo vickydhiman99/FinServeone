@@ -1,0 +1,34 @@
+#Trusted-Partners .title{
+    text-align: center;
+}
+#Trusted-Partners .title h1{
+    color: #043A8C;
+}
+.slider-sect{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.slider-sect img{
+    width: 100%;
+    height:10vh;
+}
+
+.slick-slider .slick-track{
+    display: flex;
+    gap: 10px;
+}
+
+.slick-prev:before {
+    font-family: slick;
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: green;
+}
+.slick-next:before {
+    font-family: slick;
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: green;
+}

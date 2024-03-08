@@ -1,0 +1,53 @@
+#getting-loan{
+    padding: 50px;
+    background-color: #DDEAFF;
+}
+.loan-title h1{
+    color: #222222;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#getting-loan .content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+
+}
+#getting-loan .inner-content{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+}
+#getting-loan .inner-content .icon{
+    font-size: 35px;
+    font-family: sans-serif;
+}
+
+.card-content-box{
+    padding: 20px;
+}
+.card-content-box .sino{
+    padding: 3px 11px;
+    background-color: #DDEAFF;
+    display: inline;
+    border-radius: 48%;
+    font-family: serif;
+}
+.card-content-box .main-content{
+    display: flex;
+    align-items: baseline;
+    gap: 13px;
+}
+.card-content-box .main-content h4{
+    color: #222222;
+    font-family: sans-serif;
+}
+.card-content-box .main-content p{
+    color: #222222;
+    font-family: sans-serif;
+}
+

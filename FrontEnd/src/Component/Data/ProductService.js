@@ -1,0 +1,31 @@
+export const navData = [
+    {
+        Name:'Home',
+        path:'/'
+    },
+    {
+        Name:'About',
+        path:'/about'
+    },
+    {
+        Name:'Product',
+        path:'/product'
+    },
+    {
+        Name:'Service',
+        path:'/service'
+    },
+    {
+        Name:'Contact',
+        path:'/contact'
+    },
+    {
+        Name:'Career',
+        path:'/career'
+    },
+    {
+        Name:'Consultant',
+        path:'/consultant'
+    }
+
+]
